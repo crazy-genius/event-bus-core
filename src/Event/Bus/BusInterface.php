@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace EventSourcing\Bus;
 
-use EventSourcing\Event\EventInterface;
 use EventSourcing\Event\Subscriber\SubscriberInterface;
 
 /**
@@ -13,7 +12,7 @@ use EventSourcing\Event\Subscriber\SubscriberInterface;
  */
 interface BusInterface
 {
-    public function push(EventInterface $event): void;
+    public function push(object $event): void;
 
     public function addSubscriber(SubscriberInterface $subscriber): void;
 }
