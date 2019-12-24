@@ -1,6 +1,6 @@
 {
-    "name": "crazy_genius/event-sourcing",
-    "description": "Event Sourcing Core for php >= 7.4",
+    "name": "event-bus/core",
+    "description": "Event Bus Core for php >= 7.4",
     "type": "library",
     "license": "MIT",
     "authors": [
