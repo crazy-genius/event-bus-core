@@ -1,5 +1,5 @@
 {
-    "name": "crazy_genius/eventSourcing",
+    "name": "crazy_genius/event-sourcing",
     "description": "Event Bus for php >= 7.4",
     "type": "library",
     "license": "MIT",
